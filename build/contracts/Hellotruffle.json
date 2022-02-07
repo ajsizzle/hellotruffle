@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"hello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/hellotruffle.sol\":\"Hellotruffle\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/hellotruffle.sol\":{\"keccak256\":\"0x7bf635c6d2a7b786db3ac8476c8f48bd1c2bcb7e82586a5714d8d8f8eeff1ddd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://45d3fb81055339a48e4a62a3d53b0b9791c90b1b966fd75bad21d2123d3f3a8d\",\"dweb:/ipfs/QmYz3Sf7LzgJwVcUHykHfQt8yuohb8tut4WrVW8Lk78Cfi\"]}},\"version\":1}",
@@ -1144,9 +1145,17 @@
     "name": "solc",
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x28ffc93856De6f38e180033fc526dA7dE0119C64",
+      "transactionHash": "0x1ba068c04bb5a60d1652c43be3d7cb2367bd1784c55d5316691e136faffc8ace"
+    }
+  },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-02-07T13:59:04.662Z",
+  "updatedAt": "2022-02-07T14:15:36.523Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
