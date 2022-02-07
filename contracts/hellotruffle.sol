@@ -4,7 +4,7 @@ pragma solidity 0.8.11;
 contract Hellotruffle{
     string message = "Hello truffle";
 
-    function setMessage(string memory newMessage) public {
+    function setMessage(string memory newMessage) public payable {
         message = newMessage;
     } 
 
